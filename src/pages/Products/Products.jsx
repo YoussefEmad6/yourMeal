@@ -1,7 +1,8 @@
 import React from "react";
-
-const Products = () => {
+import WithGuard from "../../utils/WithGuard";
+const Products = (props) => {
+  console.log(props);
   return <div>Products</div>;
 };
 
-export default Products;
+export default WithGuard(Products);
