@@ -4,7 +4,7 @@ import { Header, Footer } from "../../components/common";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className=" bg-bgColor">
       <Header />
       <div>
         <Outlet />
